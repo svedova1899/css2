@@ -1,0 +1,36 @@
+:root {
+    --accent-color: #2196F3;
+    --main-color: #212121;
+    --background-color: #2F303A;
+    --section-color: #F5F4FA;
+    --logo-color: rgba(255, 255, 255, 0.60);
+    --main-background-color
+}
+.active {
+    color: var(--main-color);
+}
+.visited {
+    color: #2196F3;
+}
+.hover {
+    color: #212121;
+}
+.basic {
+    background-color: #2F303A;
+    background-size: 1600px 600px;
+}
+.photo{
+    background-color: #F5F4FA;
+}
+.address {
+    background-color: #212121;
+}
+.gmail {
+    color: var(--logo-color);
+}
+.tel {
+    color: var(--logo-color);
+}
+.text {
+    color: #F5F4FA;
+}
