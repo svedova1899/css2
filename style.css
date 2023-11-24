@@ -4,7 +4,7 @@
     --background-color: #2F303A;
     --section-color: #F5F4FA;
     --logo-color: rgba(255, 255, 255, 0.60);
-    --main-background-color
+    --main-background-color;
 }
 .active {
     color: var(--main-color);
@@ -27,10 +27,42 @@
 }
 .gmail {
     color: var(--logo-color);
+    font-family: 'Roboto', sans-serif;
 }
 .tel {
     color: var(--logo-color);
+    font-family: 'Roboto', sans-serif;
 }
 .text {
     color: #F5F4FA;
+    font-family: 'Roboto', sans-serif;
+}
+.visited {
+    font-family: 'Roboto', sans-serif;
+}
+.active {
+    font-family: 'Roboto', sans-serif;
+}
+.hover {
+    font-family: 'Roboto', sans-serif;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #F5F4FA;
+}
+.title3 {
+    font-family: 'Roboto', sans-serif;
+}
+.text2 {
+    font-family: 'Roboto', sans-serif;
+}
+.title2 {
+    font-family: 'Roboto', sans-serif;
+}
+.title4 {
+    font-family: 'Roboto', sans-serif;
+}
+.text3 {
+    font-family: 'Roboto', sans-serif; 
 }
