@@ -4,7 +4,6 @@
     --background-color: #2F303A;
     --section-color: #F5F4FA;
     --logo-color: rgba(255, 255, 255, 0.60);
-    --main-background-color;
 }
 .active {
     color: var(--main-color);
