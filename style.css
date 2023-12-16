@@ -38,12 +38,15 @@
 }
 .visited {
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 .active {
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 .hover {
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 .title {
     font-family: 'Roboto', sans-serif;
@@ -58,10 +61,49 @@
 }
 .title2 {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 .title4 {
     font-family: 'Roboto', sans-serif;
 }
 .text3 {
     font-family: 'Roboto', sans-serif; 
+}
+.name{
+    font-family: 'Raleway', sans-serif;
+    color: var(--accent-color) 
+}
+.name2{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+.name3{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.link {
+    text-decoration: none;
+}
+.menu{
+    list-style: none;
+}
+.menu__sub {
+    list-style: none;
+}
+.list {
+    list-style: none;
+}
+.items {
+    list-style: none;
+}
+.menu-list{
+    list-style: none;
+}
+.alert-basic {
+    background-color: var(--background-color);
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px; 
 }

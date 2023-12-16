@@ -40,30 +40,37 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <a href="index.html"><span>Web</span>Studio</a>
+        <div class="container">
+        <a href="index.html" class="link"><span class="name">Web</span><span class="name2">Studio</span></a>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="index.html" class="visited">Студія</a></li>
                 <li><a href="index.html" class="active">Портфоліо</a></li>
                 <li><a href="index.html" class="hover">Контакти</a></li>
             </ul>
-            <ul>
+            <ul class="menu__sub">
                 <li><a href="mailto:info@devstudio.com" class="gmail"></a>info@devstudio.com</li>
                 <li><a href="tel:+380961111111" class="tel"></a>+38 096 111 11 11</li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
-        <section class="alert basic">
+        <div class="container">
+        <section class="alert-basic">
             <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
             <button type="button">Замовити послугу</button>
         </section>
         <section>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3 class="title3">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="text2">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -84,7 +91,7 @@
         </section>
         <section>
             <h2 class="title2">Чим ми займаємося</h2>
-            <ul>
+            <ul class="items">
                 <li><img src="photo/img1.jpg" alt="Написання коду"></li>
                 <li><img src="photo/img2.jpg" alt="Розробка дизайну"></li>
                 <li><img src="photo/img3.jpg" alt="Підбір кольорів"></li>
@@ -92,7 +99,7 @@
         </section>
         <section class="alert photo">
             <h2 class="title2">Наша команда</h2>
-            <ul>
+            <ul class="menu-list">
                 <li><img src="photo/img4.jpg" alt="чоловік у бордовій сорочці" width="300">
                     <h4 class="title4">Ігор Дем'яненко</h4>
                     <p class="text3">Product Designer</p>
@@ -111,14 +118,17 @@
                 </li>
             </ul>
         </section>
+    </div>
     </main>
     <footer class="alert address">
-        <a href="index.html"><span>Web</span>Studio</a>
+        <div class="container">
+        <a href="index.html" class="link"><span class="name">Web</span><span class="name3">Studio</span></a>
         <address>
             <p class="text">м. Київ, пр-т Лесі Українки, 26</p>
             <a href="mailto:info@devstudio.com" class="gmail">info@devstudio.com</a>
             <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
         </address>
+        </div>
     </footer>
 </body>
 </html>
