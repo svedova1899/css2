@@ -107,3 +107,7 @@
     margin: 0 auto;
     padding: 0 15px; 
 }
+.article-container {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
